@@ -4,13 +4,13 @@ AI Image Generator is a modern React-based web application that transforms text 
 
 ### Features
 
-* 🎨 Generate AI images from text prompts
-* 🎲 Random prompt generator for inspiration
-* ⚡ Fast image generation using the Hugging Face API
-* 🖼️ Real-time image preview
-* 📱 Responsive and user-friendly interface
-* ⏳ Loading indicator during image generation
-* ✏️ Custom prompt input support
+*  Generate AI images from text prompts
+*  Random prompt generator for inspiration
+* Fast image generation using the Hugging Face API
+*  Real-time image preview
+*  Responsive and user-friendly interface
+*  Loading indicator during image generation
+*  Custom prompt input support
 
 ### Technologies Used
 
