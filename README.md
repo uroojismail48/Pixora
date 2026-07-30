@@ -1,16 +1,30 @@
-# React + Vite
+# AI Image Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Image Generator is a modern React-based web application that transforms text prompts into AI-generated images. Users can either write their own prompt or generate a random creative prompt with a single click. The application sends the prompt to an AI image generation model through the Hugging Face Inference API and displays the generated image instantly in a clean, responsive interface.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🎨 Generate AI images from text prompts
+* 🎲 Random prompt generator for inspiration
+* ⚡ Fast image generation using the Hugging Face API
+* 🖼️ Real-time image preview
+* 📱 Responsive and user-friendly interface
+* ⏳ Loading indicator during image generation
+* ✏️ Custom prompt input support
 
-## React Compiler
+### Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6+)
+* Tailwind CSS
+* Hugging Face Inference API
+* Fetch API
 
-## Expanding the ESLint configuration
+### How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Enter a text prompt or generate a random one.
+2. Click the **Generate Image** button.
+3. The application sends the prompt to the AI model via the Hugging Face API.
+4. The generated image is displayed instantly on the screen.
+
+This project demonstrates API integration, asynchronous data fetching, React state management with Hooks, and building a responsive AI-powered user interface.
